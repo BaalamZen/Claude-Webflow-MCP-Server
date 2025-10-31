@@ -1,0 +1,19 @@
+{
+  "name": "claude-webflow-mcp-server",
+  "version": "1.0.0",
+  "description": "Local MCP server for Webflow API",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "webflow-api": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "typescript": "^5",
+    "ts-node": "^10"
+  }
+}
